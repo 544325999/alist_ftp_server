@@ -1,0 +1,8 @@
+{
+  "test": {
+    "username": "test",
+    "password": "123",
+    "path": "/",
+    "status": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "zhusaidong/ftp-server",
+    "description": "PHP FTP server based on workerman",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhusaidong",
+            "email": "zhusaidong@gmail.com"
+        }
+    ],
+	"minimum-stability":"stable",
+    "require": {
+        "workerman/workerman": "^3.5",
+		"ext-json"           :"*",
+		"ext-mbstring"       :"*",
+		"ext-posix"          :"*",
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^2.61"
+	},
+    "autoload":{
+    	"psr-4":{
+    		"FTPServer\\":"src/"
+    	}
+    },
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
